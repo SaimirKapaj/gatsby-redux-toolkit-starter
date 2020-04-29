@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from 'components/Layout';
 import SEO from 'components/SEO';
 
-const BlogPage: React.FC = () => {
+const BlogPage = () => {
   return (
     <Layout>
       <SEO title="Blog" />

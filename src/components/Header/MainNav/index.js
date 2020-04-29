@@ -5,12 +5,7 @@ import Icon from 'utils/Icon';
 
 import { MainNavWrapper, Nav, NavItem, OpenNavButton, CloseNavButton } from './styles';
 
-interface NavItem {
-  title: string;
-  slug: string;
-}
-
-const navItems: NavItem[] = [
+const navItems = [
   {
     title: 'Home',
     slug: '/'
@@ -29,7 +24,7 @@ const navItems: NavItem[] = [
   }
 ];
 
-const MainNav: React.FC = () => {
+const MainNav = () => {
   const [open, setOpen] = useState(false);
 
   return (

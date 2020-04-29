@@ -6,7 +6,7 @@ import Icon from 'utils/Icon';
 
 import { SwitchThemeModeButton } from './styles';
 
-const SwitchThemeMode: React.FC = () => {
+const SwitchThemeMode = () => {
   const { themeMode } = useSelector(uiSelector);
   const dispatch = useDispatch();
 

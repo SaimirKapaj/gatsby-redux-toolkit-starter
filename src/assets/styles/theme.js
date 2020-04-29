@@ -1,14 +1,6 @@
 import { colors } from './variables';
 
-interface Theme {
-  colors: {
-    primary: string;
-    secondary: string;
-    border: string;
-  };
-}
-
-export const light: Theme = {
+export const light = {
   colors: {
     primary: colors.gray200,
     secondary: colors.gray800,
@@ -16,12 +8,10 @@ export const light: Theme = {
   }
 };
 
-export const dark: Theme = {
+export const dark = {
   colors: {
     primary: colors.gray900,
     secondary: colors.gray400,
     border: colors.gray800
   }
 };
-
-export type ThemeType = typeof light | typeof dark;

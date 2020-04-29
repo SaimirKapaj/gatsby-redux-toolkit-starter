@@ -5,10 +5,10 @@ export const SwitchThemeModeButton = styled.button`
   ${tw`flex items-center p-2 `};
 
   svg {
-    ${tw`fill-current text-indigo-200`};
+    ${tw`fill-current text-purple-200`};
   }
 
   &:hover svg {
-    ${tw`fill-current text-indigo-100`};
+    ${tw`fill-current text-purple-100`};
   }
 `;

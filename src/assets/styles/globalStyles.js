@@ -1,8 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
-import { ThemeType } from 'assets/styles/theme';
 import tw from 'tailwind.macro';
 
-export default createGlobalStyle<{ theme: ThemeType }>`
+export default createGlobalStyle`
   body {
     margin: 0;
     color: ${({ theme }) => theme.colors.secondary};
@@ -10,6 +9,6 @@ export default createGlobalStyle<{ theme: ThemeType }>`
   }
 
   a {
-    ${tw`text-indigo-500 hover:text-indigo-600`};
+    ${tw`text-purple-600 hover:text-purple-700`};
   }
 `;

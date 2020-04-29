@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 import { ThemeProvider } from 'styled-components';
 import { useSelector } from 'react-redux';
@@ -12,16 +13,7 @@ import GlobalStyles from 'assets/styles/globalStyles';
 import * as Theme from 'assets/styles/theme';
 import { LayoutWrapper, MainWrapper } from './styles';
 
-interface Props {
-  children: React.ReactNode;
-}
-
-/**
- * Layout component
- *
- * @param {Props} props
- */
-const Layout: React.FC<Props> = ({ children }) => {
+const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -44,6 +36,10 @@ const Layout: React.FC<Props> = ({ children }) => {
       </LayoutWrapper>
     </ThemeProvider>
   );
+};
+
+Layout.propTypes = {
+  children: PropTypes.any.isRequired
 };
 
 export default Layout;

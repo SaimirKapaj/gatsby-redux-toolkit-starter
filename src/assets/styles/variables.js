@@ -1,11 +1,9 @@
-import { ObjectType } from 'helpers/definitions';
-
 /**
  * ----------------------------------------
  * colors
  * ----------------------------------------
  */
-export const colors: ObjectType = {
+export const colors = {
   white: '#ffffff',
   black: '#000000',
   // gray

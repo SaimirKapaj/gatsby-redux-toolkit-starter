@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 
 import MainNav from './MainNav';
@@ -6,16 +7,7 @@ import SwitchThemeMode from './SwitchThemeMode';
 
 import { HeaderWrapper, Title } from './styles';
 
-interface Props {
-  siteTitle: string;
-}
-
-/**
- * Header component
- *
- * @param {Props} props
- */
-const Header: React.FC<Props> = ({ siteTitle }) => (
+const Header = ({ siteTitle }) => (
   <HeaderWrapper>
     <Link to="/">
       <Title>{siteTitle}</Title>
@@ -27,6 +19,10 @@ const Header: React.FC<Props> = ({ siteTitle }) => (
 
 Header.defaultProps = {
   siteTitle: ``
+};
+
+Header.propTypes = {
+  siteTitle: PropTypes.string.isRequired
 };
 
 export default Header;
