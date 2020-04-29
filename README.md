@@ -1,19 +1,19 @@
 # Gatsby Redux-Toolkit Typescript Starter
 
-This is a starter for [Gatsby](https://www.gatsbyjs.org/) websites using [Redux-Toolkit](https://redux-toolkit.js.org/), [Typescript](https://www.typescriptlang.org/), [Styled Components](https://styled-components.com/), [Talwind CSS](https://tailwindcss.com/) & [React Font Awesome](https://github.com/FortAwesome/react-fontawesome).
+This is a starter for [Gatsby](https://www.gatsbyjs.org/) websites using [Redux-Toolkit](https://redux-toolkit.js.org/), [Styled Components](https://styled-components.com/), [Talwind CSS](https://tailwindcss.com/) & [React Font Awesome](https://github.com/FortAwesome/react-fontawesome).
 
 ## Demo
 
-[Gatsby Redux-Toolkit Typescript Starter](https://gatsby-redux-toolkit-typescript.netlify.com/)
+[Gatsby Redux-Toolkit Starter](https://gatsby-redux-toolkit.netlify.com/)
 
 ## Quick start
 
 1.  **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, using the Redux-Toolkit Typescript Starter.
+    Use the Gatsby CLI to create a new site, using the Redux-Toolkit Starter.
 
     ```shell
-    gatsby new my-site-name https://github.com/saimirkapaj/gatsby-redux-toolkit-typescript-starter
+    gatsby new my-site-name https://github.com/saimirkapaj/gatsby-redux-toolkit-starter
     ```
 
 2.  **Develop**
@@ -46,6 +46,6 @@ This is a starter for [Gatsby](https://www.gatsbyjs.org/) websites using [Redux-
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saimirkapaj/gatsby-redux-toolkit-typescript-starter)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saimirkapaj/gatsby-redux-toolkit-starter)
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/saimirkapaj/gatsby-redux-toolkit-typescript-starter)
+[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/saimirkapaj/gatsby-redux-toolkit-starter)
